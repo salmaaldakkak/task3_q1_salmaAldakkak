@@ -51,10 +51,9 @@ public class q1 {
             if (scores[i] == value) {
                 System.out.println("Value " + value+ " is existed at index: " + i + " :)");
                 existed = true;
-                break; // ashan lmma nla2eeh
             }
         }
-        if (!existed) {
+        if (existed == false) {
             System.out.println("Value " + value+ " is not found :( ");
         }
 
